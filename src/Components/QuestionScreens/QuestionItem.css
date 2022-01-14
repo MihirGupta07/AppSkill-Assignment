@@ -1,0 +1,59 @@
+/* Stylesheet for individual question component which is reused multiple times */
+
+.questionContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 20px;
+}
+.questionOptions {
+  display: grid;
+  grid-template-columns: repeat(6, auto);
+  grid-gap: 20px;
+  list-style: none;
+  text-align: center;
+  width: 40vw;
+}
+.questionContent {
+  display: flex;
+  flex-direction: column;
+  /* margin-left: 50px; */
+}
+.questionOptionSelect {
+  flex: 1;
+  margin-left: 40px;
+  align-self: flex-start;
+  color: gray;
+  font-size: 12px;
+}
+.questionText {
+  flex: 1;
+  margin-left: 40px;
+  align-self: flex-start;
+  color: cornflowerblue;
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-family: "Courier New", sans-serif;
+}
+.questionImage {
+  height: 150px;
+  width: 150px;
+  border-radius: 100px;
+}
+.questionNumber {
+  padding: 30px;
+  font-size: 80px;
+  font-weight: bold;
+  color: lightblue;
+  font-family: "Montserrat", sans-serif;
+}
+.questionOption {
+  color: green;
+  padding: 5px;
+}
+a.listItem:hover,
+li.questionOption:hover {
+  color: white;
+  background-color: green;
+  border-radius: 10px;
+}

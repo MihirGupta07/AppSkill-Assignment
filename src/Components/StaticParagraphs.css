@@ -1,0 +1,18 @@
+/* This is the Stylesheet for the Static paragraph*/
+
+h1 {
+  color: green;
+  font-family: "Hind", sans-serif;
+}
+p {
+  width: 40vw;
+  /* font-size: 15px; */
+}
+.container {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+  /* background-color: aquamarine; */
+}

@@ -1,0 +1,44 @@
+/* This is the stylesheet used for all the questionnaire screens */
+
+.screenheader {
+  color: cornflowerblue;
+  font-size: 25px;
+  margin-bottom: 20px;
+  font-family: "Hind", sans-serif;
+}
+.Buttons {
+  padding-bottom: 30px;
+}
+.FilledButton {
+  background-color: green;
+  color: white;
+  border-style: solid;
+  border-color: green;
+  border-radius: 50px;
+  padding: 5px;
+  width: 100px;
+  margin: 5px;
+}
+.EmptyButton {
+  background-color: white;
+  color: green;
+  border-style: solid;
+  border-color: green;
+  border-radius: 50px;
+  padding: 5px;
+  width: 100px;
+  margin: 5px;
+}
+input.EmptyButton:hover {
+  background-color: green;
+  color: white;
+  border-style: solid;
+  border-radius: 50px;
+}
+input.FilledButton:hover {
+  background-color: white;
+  color: green;
+  border-style: solid;
+  border-color: green;
+  border-radius: 50px;
+}
